@@ -42,6 +42,7 @@ management:
 
 eureka:
   instance:
+    hostname: ${spring.application.name}
     preferIpAddress: true
   client:
     service-url:

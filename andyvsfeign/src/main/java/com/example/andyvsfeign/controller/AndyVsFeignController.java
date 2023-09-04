@@ -23,8 +23,8 @@ public class AndyVsFeignController {
      * @param firstName Filter on firstName, left blank all phonebook entries are returned
      * @return A List of phonebook entries and HTTP Status code
      * 
-     * http GET http://localhost:9090/phonebookentries/find
-     * http GET http://localhost:9090/phonebookentries/find?firstName=Flo
+     * http GET :9090/phonebookentries
+     * http GET :9090/phonebookentries firstName==flo
      * 
      */
     @GetMapping("/phonebookentries")
